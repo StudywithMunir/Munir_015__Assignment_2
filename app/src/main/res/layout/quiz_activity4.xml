@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Q7"
+        android:textSize="18sp"
+        android:textColor="#003366"
+        android:textStyle="bold"
+        android:paddingTop="4dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Who discovered the law of gravity?"
+        android:textSize="16sp"
+        android:textColor="#003366"
+        android:paddingBottom="4dp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp">
+
+        <RadioButton
+            android:id="@+id/firstRight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Isaac Newton"
+            android:textSize="16sp"
+            android:textColor="#003366"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Albert Einstein"
+            android:textSize="16sp"
+            android:textColor="#003366"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Galileo Galilei"
+            android:textSize="16sp"
+            android:textColor="#003366"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Charles Darwin"
+            android:textSize="16sp"
+            android:textColor="#003366"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Q8"
+        android:textSize="18sp"
+        android:textColor="#003366"
+        android:textStyle="bold"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Which country is the largest producer of coffee in the world?"
+        android:textSize="16sp"
+        android:textColor="#003366"
+        android:paddingBottom="4dp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp">
+
+        <RadioButton
+            android:id="@+id/secondRight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Brazil"
+            android:textSize="16sp"
+            android:textColor="#003366"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Colombia"
+            android:textSize="16sp"
+            android:textColor="#003366"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ethiopia"
+            android:textSize="16sp"
+            android:textColor="#003366"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vietnam"
+            android:textSize="16sp"
+            android:textColor="#003366"/>
+    </RadioGroup>
+    <Button
+        android:id="@+id/cont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        android:textSize="16sp"
+        android:textColor="#ffffff"
+        android:background="#003366"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="4dp"/>
+
+</LinearLayout>

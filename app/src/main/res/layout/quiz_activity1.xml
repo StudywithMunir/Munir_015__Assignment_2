@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Q1"
+        android:textSize="18sp"
+        android:textColor="#003366"
+        android:textStyle="bold"
+        android:paddingTop="6dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Which planet in our solar system is the largest?"
+        android:textSize="16sp"
+        android:textColor="#003366"
+        android:paddingBottom="4dp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Venus"
+            android:textSize="16sp"
+            android:textColor="#003366"/>
+
+        <RadioButton
+            android:id="@+id/firstRight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jupiter"
+            android:textSize="16sp"
+            android:textColor="#003366"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mars"
+            android:textSize="16sp"
+            android:textColor="#003366"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Saturn"
+            android:textSize="16sp"
+            android:textColor="#003366"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Q2"
+        android:textSize="18sp"
+        android:textColor="#003366"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        android:paddingBottom="4dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="In which year did World War II end?"
+        android:textSize="16sp"
+        android:textColor="#003366"
+        android:paddingBottom="4dp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1942"
+            android:textSize="16sp"
+            android:textColor="#003366"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1943"
+            android:textSize="16sp"
+            android:textColor="#003366"/>
+        <RadioButton
+            android:id="@+id/secondRight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1945"
+            android:textSize="16sp"
+            android:textColor="#003366"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1947"
+            android:textSize="16sp"
+            android:textColor="#003366"/>
+    </RadioGroup>
+    <Button
+        android:id="@+id/cont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        android:textSize="16sp"
+        android:textColor="#ffffff"
+        android:background="#003366"
+        android:layout_gravity="center_horizontal"
+        />
+
+</LinearLayout>

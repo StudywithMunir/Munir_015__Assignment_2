@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Q5"
+        android:textSize="18sp"
+        android:textColor="#003366"
+        android:textStyle="bold"
+        android:paddingTop="4dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Which animal is known as the ship of the desert?"
+        android:textSize="16sp"
+        android:textColor="#003366"
+        android:paddingBottom="4dp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Horse"
+            android:textSize="16sp"
+            android:textColor="#003366"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rhino"
+            android:textSize="16sp"
+            android:textColor="#003366"/>
+
+        <RadioButton
+            android:id="@+id/firstRight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Camel"
+            android:textSize="16sp"
+            android:textColor="#003366"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Elephant"
+            android:textSize="16sp"
+            android:textColor="#003366"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Q6"
+        android:textSize="18sp"
+        android:textColor="#003366"
+        android:textStyle="bold"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Which country is known as the Land of the Rising Sun?"
+        android:textSize="16sp"
+        android:textColor="#003366"
+        android:paddingBottom="4dp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="China"
+            android:textSize="16sp"
+            android:textColor="#003366"/>
+
+        <RadioButton
+            android:id="@+id/secondRight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Japan"
+            android:textSize="16sp"
+            android:textColor="#003366"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="South Korea"
+            android:textSize="16sp"
+            android:textColor="#003366"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thailand"
+            android:textSize="16sp"
+            android:textColor="#003366"/>
+    </RadioGroup>
+    <Button
+        android:id="@+id/cont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        android:textSize="16sp"
+        android:textColor="#ffffff"
+        android:background="#003366"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="4dp"
+        />
+
+</LinearLayout>
